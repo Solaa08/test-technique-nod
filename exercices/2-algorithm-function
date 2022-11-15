@@ -1,0 +1,3 @@
+int MyFunction(int x) => x == 1 ? 1 : (x * MyFunction(x - 1));
+
+MyFunction(5) == 100; TODO: Find the value

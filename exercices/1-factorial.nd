@@ -1,0 +1,15 @@
+module Maths
+  def mult(n, m)
+    n * m
+  end
+  def plus(n, m)
+    n + m
+  end
+  def minus(n, m)
+    n - m
+  end
+  def power(n, m)
+    mult(n, power(n, minus(m, 1))) if m > 0 else 1
+  end
+  TODO: The factorial fonction
+end
